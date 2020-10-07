@@ -16,7 +16,7 @@ const initialState = {
 };
 
 export const featureReducer = (state = initialState, action) => {
-  console.log("what state is doing", state, action);
+  //   console.log("what state is doing", state, action);
   switch (action.type) {
     default:
       return state;

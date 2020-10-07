@@ -10,4 +10,11 @@ const AddedFeature = (props) => {
   );
 };
 
-export default AddedFeature;
+const mapStateToProps = (state) => {
+  console.log(state);
+  return {
+    feature: state.car.feature,
+  };
+};
+
+export default connect(mapStateToProps, {})(AddedFeature);
