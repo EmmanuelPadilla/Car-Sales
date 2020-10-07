@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <>
       <figure className="image is-128x128">
-        <img src={props.image} alt={props.name} />
+        <img src={props.image} alt={props.car} />
       </figure>
       <h2>{props.car}</h2>
       <p>Amount: ${props.price}</p>
